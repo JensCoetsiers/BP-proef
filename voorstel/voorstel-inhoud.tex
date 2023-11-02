@@ -1,5 +1,4 @@
 %---------- Inleiding ---------------------------------------------------------
-\addbibresource{voorstel.bib}
 
 \section{Introductie}%
 \label{sec:introductie}
@@ -7,27 +6,26 @@
     het toekomstige leven omdat ze veel communicatietijd besparen en het gewone sms'en 
     vervangen door spraak/audio.}{Natalya Shakhovska}
     
-De tekst hierboven toont dus hoe belangrijk speech-to-text kan zijn. 
-Speech-to-text speelt een steeds prominentere rol in deze snel evoluerende tijd, het stelt ons in staat om gesproken taal nauwkeurig om te zetten in geschreven tekst. De technologie heeft een breed scala van toepassingen zoals:
+In het bovenstaande voorbeeld wordt duidelijk geïllustreerd hoe belangrijk speech to text is in ons dagelijks leven, zowel in het nu als in de toekomst. Deze technologie speelt een steeds grotere rol in onze snel evoluerende wereld doordat het ons instaat stelt gesproken taal nauwkeurig om te zetten in geschreven tekst. De invloed van speech to text is tegenwoordig al in gebruik met een breed scala aan toepassingen zoals:
 \begin{itemize}
     \item kinderen helpen met problemen in gesproken en geschreven communicatie.\autocite{Kambouri2023}
     \item automatische ondertiteling
+    \item Google assistant, Siri.
     \item ...
 \end{itemize}
 
-Hier zullen we ons vooral focussen op spraakopdrachten zoals een gesprek tussen klant en bedrijf, 2 vrienden etc.
-Ondanks dat dergelijke systemen al een grote vooruitgang geboekt hebben blijven ze de verwerking van dialecten, regionale accenten een uitdaging vinden.
+In dit onderzoek ligt de focus voornamelijk op spraakopdrachten, zoals die in gesprekken tussen klant en bedrijf of tussen vrienden voorkomen. Hoewel dergelijke systemen al aanzienlijke vooruitgang hebben geboekt, blijft de verwerking van dialecten en regionale accenten een uitdaging voor deze technologieën.
 
 \subsection{Uitdagingen bij Niet-standaard Nederlands}
-Het Nederlands taalgebied heeft een rijke variatie aan dialecten. Dat vormt dus een uitdaging voor speech-to-text systemen die oorspronkelijk getraind zijn op standaard Nederlands. De vraag die dan gesteld kan worden is: Is deze technologie in staat om deze variatie en diversiteit te begrijpen, en of ze kunnen worden geoptimaliseerd om nauwkeurige transcripties te leveren voor niet-standaard Nederlands ?
-Deze vraag zal de kern vormen van ons onderzoek en zal dienen als leidraad.
+Het Nederlands taalgebied heeft een rijke variatie aan dialecten. Dat vormt dus een uitdaging voor speech to text systemen die oorspronkelijk getraind zijn op standaard Nederlands. De vraag die dan gesteld kan worden is: Is deze technologie instaat om deze variatie en diversiteit te begrijpen, en of ze kunnen worden verbeterd om nauwkeurige transcripties te leveren voor niet-standaard Nederlands?
+Deze vraag zal de kern vormen van ons onderzoek en zal dienen als leidraad
 
-Het doel is dus om een effectieve oplossing te bieden voor de problematische transcriptie van spraakgegevens in niet-standaard Nederlands, waarbij de focus ligt op dialecten en regionale accenten, ook indien het resultaat niet is zo als verwacht kunnen we toch inzichten geven waarom dit net zo moeilijk is. 
+Vanuit bovenstaand idee kwam het doel om een effectieve oplossing te bieden voor de problematische transcriptie van spraak in niet-standaard Nederlands, waarbij de focus ligt op dialecten, regionale accenten en het identificeren van de spreker, ook wanneer het resultaat niet is zo als we verwacht hadden kunnen we toch inzichten verwerven en een nuttige bijdrage leveren.
 
-Het concrete resultaat zal bestaan uit een werkend prototype of een aangepast model voor spraakherkenning dat geoptimaliseerd is voor niet-standaard Nederlands. Echter, in het geval dat de ontwikkeling of aanpassing van een dergelijk model niet succesvol blijkt te zijn, zal het onderzoeksrapport een gedetailleerde evaluatie bevatten van de uitdagingen en beperkingen die zijn geïdentificeerd.
+Het concrete resultaat zal bestaan uit een (aangepast) model voor spraakherkenning dat geoptimaliseerd is voor niet-standaard Nederlands. Echter, in het geval dat het ontwikkelen of aanpassen van een dergelijk model niet succesvol blijkt te zijn, zal het onderzoeksrapport een gedetailleerde evaluatie bevatten van de uitdagingen en beperkingen die zijn geïdentificeerd.
 
 \subsection{Opzet van het onderzoek}
-Dit onderzoek zal zich ontvouwen in verschillende secties, beginnend met een grondige literatuurstudie om de huidige stand van zaken in het vakgebied te begrijpen. Vervolgens zal de methodologie worden beschreven, waarbij we onze aanpak voor het verkennen en verbeteren van de transcriptiekwaliteit zullen uiteenzetten. Ten slotte zullen we de verwachte resultaten bespreken.
+Dit onderzoek zal zich ontvouwen in verschillende onderdelen, beginnend met een grondige literatuurstudie om de huidige stand van zaken in het vakgebied te begrijpen. Vervolgens zal de methodologie worden beschreven, waarbij we onze aanpak voor het verkennen en verbeteren van de transcriptiekwaliteit zullen uitschrijven. Ten slotte zullen we de verwachte resultaten bespreken.
 
 
 
@@ -59,17 +57,37 @@ Je mag deze sectie nog verder onderverdelen in subsecties als dit de structuur v
 \section{Methodologie}%
 \label{sec:methodologie}
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor literatuurstudie, interviews met belanghebbenden (bv.~voor requirements-analyse), experimenten, simulaties, vergelijkende studie, risico-analyse, PoC, \ldots?
+We zullen het onderzoek uitvoeren in zes stappen, waarbij de eerste fase gericht is op het vinden van relevante bronnen voor het onderzoek. De volgende stappen worden dan gevolgd.
+\begin{itemize}
+    \item Long list: De long list zal bestaan uit alle bronnen die mogelijk relevant zijn voor het onderzoek. Mogelijke zoektermen zijn onder andere 'speech to text', 'speech to text using deep learning', 'voice synthesis', ... . Door deze zoektermen te gebruiken, zullen we een long list kunnen opstellen van mogelijke bronnen.
+    \item Kritische evaluatie van bronnen: Hier zullen we de bronnen evalueren op basis van de titel, abstract en keywords. Zo zullen we een beter beeld krijgen van de bronnen en kunnen we bepalen of onze zoektermen relevant zijn voor het onderzoek. We zullen deze evalueren op basis van de volgende criteria: relevantie, actualiteit, biedt deze inzicht in het onderzoek, is het een betrouwbare bron, is het een peer-reviewed artikel, is het een wetenschappelijk artikel en is het afkomstig van een gerenommeerde instelling.
+    \item Short list: De short list zal bestaan uit de bronnen die het meest aansluiten en relevant zijn voor het onderzoek.
+    \item Synthese van bronnen: In deze stap zullen we de bronnen samenvatten in een doorlopende tekst. Die zal dienen als basis voor de literatuurstudie.
+    \item Conclusie: De conclusie zal bestaan uit een samenvatting van de literatuurstudie op basis van de synthese van de bronnen. Hierin zal de onderzoeksvraag beantwoord worden.
+    \item Scriptie: De scriptie zal bestaan uit de volgende onderdelen: inleiding, literatuurstudie, methodologie, resultaten, conclusie en referenties.
+\end{itemize}
 
-Valt je onderwerp onder één van de typische soorten bachelorproeven die besproken zijn in de lessen Research Methods (bv.\ vergelijkende studie of risico-analyse)? Zorg er dan ook voor dat we duidelijk de verschillende stappen terug vinden die we verwachten in dit soort onderzoek!
+\par Daarna wordt de methodologie vervolgd met de identificatie van commerciële speech to text systemen en de bepaling van een baseline voor prestatievergelijking. De tests om de baseline vast te stellen omvatten het transcriberen van gesprekken in zowel standaard als niet-standaard Nederlands, gevolgd door de berekening van metrieken zoals Word Error Rate en Character Error Rate met Python en het jiwer package.
+Deze stap zal volgende onderdelen bevatten:
+\begin{itemize}
+    \item Identificeer bestaande commerciële speech to text systemen die Nederlands ondersteunen.
+    \item Bepaal de kostprijs en licentievoorwaarden van deze systemen.
+    \item Evalueer de prestaties van deze systemen door het transcriberen van gesprekken in niet-standaard Nederland
+\end{itemize}   
+\par Op basis van de eerder gevonden systemen zullen we nu opzoek gaan naar vrij beschikbare alternatieven/open source systemen.
+\begin{itemize}
+    \item Onderzoek de beschikbaarheid van open source spraak naar tekstsystemen voor Nederlands.
+    \item Analyseer de technische vereisten en mogelijke beperkingen van deze systemen.
+    \item Voer tests uit om de prestaties van deze systemen voor de transcribering van niet-standaard Nederlands te beoordelen.
+\end{itemize}
+\par Steunend op deze gevonden systemen/modellen kunnen we nu gaan kijken of we ze kunnen finetunen voor niet-standaard Nederlands. Deze stap zal vooral plaatsvinden in python waar we gaan kijken of er de mogelijkheid is om de systemen te finetunen voor specifieke dialecten en informeel Nederlands. Dit kan zijn door bijv.: een hidden laag toevoegen, hyperparamter tuning, transfer learning, ... Om dan uiteindelijk het effect van de uitgevoerde finetuning te gaan testen op de prestaties en nauwkeurigheid.
 
-Vermijd onderzoekstechnieken die geen objectieve, meetbare resultaten kunnen opleveren. Enquêtes, bijvoorbeeld, zijn voor een bachelorproef informatica meestal \textbf{niet geschikt}. De antwoorden zijn eerder meningen dan feiten en in de praktijk blijkt het ook bijzonder moeilijk om voldoende respondenten te vinden. Studenten die een enquête willen voeren, hebben meestal ook geen goede definitie van de populatie, waardoor ook niet kan aangetoond worden dat eventuele resultaten representatief zijn.
+\par Indien we een systeem vinden dat aan de vereisten voldoet kunnen we gebruikmaken van annotaties voor sprekersidentificatie. Hierbij onderzoeken we eerst de mogelijkheid van annotaties om de sprekers in het gesprek te identificeren. Indien we een mogelijk model gevonden hebben voor deze taak kunnen we het implementeren en de prestaties van de systemen met en zonder annotaties vergelijken.
 
-Uit dit onderdeel moet duidelijk naar voor komen dat je bachelorproef ook technisch voldoen\-de diepgang zal bevatten. Het zou niet kloppen als een bachelorproef informatica ook door bv.\ een student marketing zou kunnen uitgevoerd worden.
+\par Tenslotte zullen we kijken of er verbetering mogelijk is met bijkomende software (LLM) hierbij onderzoeken we de bruikbaarheid van Language Models (LLMs) of andere bijkomende software om automatisch gegenereerde teksten te verbeteren voor niet-standaard Nederlands.
 
-Je beschrijft ook al welke tools (hardware, software, diensten, \ldots) je denkt hiervoor te gebruiken of te ontwikkelen.
 
-Probeer ook een tijdschatting te maken. Hoe lang zal je met elke fase van je onderzoek bezig zijn en wat zijn de concrete \emph{deliverables} in elke fase?
+\par De methodologie voor dit onderzoek omvat een uitgebreide aanpak, bestaande uit het vinden van relevante literatuur, het identificeren en evalueren van commerciële en open source speech to text systemen, het finetunen van systemen, sprekersidentificatie met annotaties en de mogelijke verbetering van resultaten met Language Models (LLMs). Deze methodologie is gebaseerd op experimenten en vergelijkende studies om de prestaties en nauwkeurigheid van speech to text systemen te verbeteren, vooral in niet-standaard Nederlands.
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwacht resultaat, conclusie}%
