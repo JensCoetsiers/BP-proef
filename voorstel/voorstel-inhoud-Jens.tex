@@ -21,7 +21,7 @@ Vanuit bovenstaand idee kwam het doel om een effectieve oplossing te bieden voor
 Het concrete resultaat zal bestaan uit een (aangepast) model voor spraakherkenning dat geoptimaliseerd is voor niet-standaard Nederlands. Echter, in het geval dat het ontwikkelen of aanpassen van een dergelijk model niet succesvol blijkt te zijn, zal het onderzoeksrapport een gedetailleerde evaluatie bevatten van de uitdagingen en beperkingen die zijn geïdentificeerd.
 
 \subsection{Opzet van het onderzoek}
-Dit onderzoek zal zich ontplooien in verschillende onderdelen, beginnend met een literatuurstudie om inzicht te krijgen in de huidige stand van zaken binnen het vakgebied.   Vervolgens zullen we de methodologie beschrijven, waarbij expliciet aandacht wordt besteed aan de specifieke context van de gesprekken tussen oudere personen en studenten van HOGENT. Hierbij zullen we onze aanpak voor het verkennen en verbeteren van de transcriptiekwaliteit in detail uiteenzetten.Ten slotte zullen we de verwachte resultaten bespreken.
+Dit onderzoek zal zich ontplooien in verschillende onderdelen, beginnend met een literatuurstudie om inzicht te krijgen in de huidige stand van zaken binnen het vakgebied.   Vervolgens zullen we de methodologie beschrijven, waarbij expliciet aandacht wordt besteed aan de specifieke context van de gesprekken tussen oudere personen en studenten van HOGENT. Hierbij zullen we onze aanpak voor het verkennen en verbeteren van de transcriptiekwaliteit in detail uiteenzetten. Ten slotte zullen we de verwachte resultaten bespreken.
 
 
 
@@ -29,15 +29,16 @@ Dit onderzoek zal zich ontplooien in verschillende onderdelen, beginnend met een
 
 \section{State-of-the-art}%
 \label{sec:state-of-the-art}
-
 Speech to text technologie ook gekend als speech recognition, heeft al een opvallende vooruitgang geboekt over verschillende domeinen heen. Dit kunnen we bevestigen uit het onderzoek van \autocite{Kambouri2023} die aantoont hoe kinderen met schrijfproblemen voordeel kunnen halen uit deze technologie. Het verbeterde de kwaliteit en hoeveelheid van hun geschreven en gesproken communicatie.
 
 Niettemin zien we uit het onderzoek van \autocite{ajami2016use} dat deze technologie zeer succesvol is in de medische sector, waar het veel tijd en geld kan besparen. Deze sector heeft vaak te kampen met onjuiste registratie van gegevens, onleesbaarheid en ongeldige gegevens. Deze beperkingen brengen de kwaliteit van medische dossiers in gevaar en kunnen ernstige gevolgen hebben. Het onderzoek benadrukt dat spraakherkenningstechnologie de tijd die nodig is om medische dossiers in te vullen aanzienlijk kan verkorten, wat leidt tot een hogere productiviteit en lagere documentatiekosten.
 
 \subsection{Uitdagingen}
-Een van de belangrijkste uitdagingen die uit onderzoeken naar voren komen is de moeilijkheid om regionale accenten en gemengde talen te herkennen. 
-Zoals beschreven door \autocite{Reddy2022}, vormt meertalige speech to text technologie een unieke uitdaging, vooral als mensen zinnen gebruiken die een mix van talen bevatten. 
+Een van de belangrijkste uitdagingen die uit onderzoeken naar voren komen is de moeilijkheid om regionale accenten en gemengde talen te herkennen.
+Zoals beschreven door \autocite{Reddy2022}, vormt meertalige speech to text technologie een unieke uitdaging, vooral als mensen zinnen gebruiken die een mix van talen bevatten.
+
 Dit vormt een obstakel voor effectieve communicatie tussen sprekers van verschillende talen of regiolecten. Daarnaast wordt ook in het onderzoek van \autocite{ajami2016use} benadrukt dat omgevingsgeluid problemen kan veroorzaken met de nauwkeurigheid van spraakherkenning, waardoor verdere verbeteringen op dit gebied nodig zijn.
+
 Deze uitdagingen geven aanleiding tot belangrijke vragen voor toekomstig onderzoek: Kunnen we speech to text technologie verbeteren om beter om te gaan met regionale accenten en dialecten? Is er een manier om omgevingsgeluid te verminderen om de nauwkeurigheid van de technologie te vergroten?
 
 
@@ -46,7 +47,6 @@ Spraak is 1 van de meest gebruikte vormen van communicatie en heeft daarom ook e
 
 \subsection{Conclusie}
 Speech to text technologie heeft het potentieel om vooruitgang te boeken in diverse sectoren, waaronder gezondheidszorg, onderwijs en interculturele communicatie. Zoals deze literatuurstudie heeft aangetoond, zijn er toch nog aanzienlijke uitdagingen die moeten worden overwonnen. Toekomstig onderzoek kan gericht zijn op het verbeteren van de nauwkeurigheid van de technologie, het overbruggen van taalbarrières en het verbeteren van communicatie voor mensen met speciale behoeften.
-
 Deze literatuurstudie sluit nauw aan bij het gekozen onderzoek, dat gericht is op het optimaliseren van transcripties voor niet-standaard Nederlands in gesprekken tussen verschillende leeftijdsgroepen. Daarnaast biedt het de mogelijkheid om te onderzoeken hoe omgevingsgeluid effectief kan worden gedempt om de nauwkeurigheid van speech to text technologie te vergroten, rekening houdend met de unieke context van de gesprekken.
 
 %---------- Methodologie ------------------------------------------------------
@@ -64,7 +64,7 @@ We zullen het onderzoek uitvoeren in zes stappen, waarbij de eerste fase gericht
     \item Scriptie: De scriptie zal bestaan uit inleiding, literatuurstudie, methodologie, resultaten, conclusie, en referenties
 \end{itemize}
 
-\par Daarna wordt de methodologie vervolgd met de identificatie van commerciële speech to text systemen en de bepaling van een baseline voor prestatievergelijking. De tests om de baseline vast te stellen omvatten het transcriberen van gesprekken in zowel standaard als niet-standaard Nederlands. Hieropvolgend worden metrieken zoals Word Error Rate en Character Error Rate berekend met behulp van Python en het jiwer-pakket. Onze specifieke focus tijdens de evaluatie zal gericht zijn op het aantal correct getranscribeerde woorden in niet-standaard Nederlands door het model.
+\par Daarna wordt de methodologie vervolgd met de identificatie van commerciële speech to text systemen en de bepaling van een baseline voor prestatievergelijking. De tests om de baseline vast te stellen omvatten het transcriberen van gesprekken in zowel standaard als niet-standaard Nederlands. Hieropvolgend worden metrieken zoals Word Error Rate en Character Error Rate berekent met behulp van Python en het jiwer-pakket. Onze specifieke focus tijdens de evaluatie zal gericht zijn op het aantal correct getranscribeerde woorden in niet-standaard Nederlands door het model.
 Deze stap zal volgende onderdelen bevatten:
 \begin{itemize}
     \item Identificeer bestaande commerciële speech to text systemen die Nederlands ondersteunen.
@@ -81,17 +81,16 @@ Deze stap zal volgende onderdelen bevatten:
 
 \par Indien we een systeem vinden dat aan de vereisten voldoet kunnen we gebruikmaken van annotaties voor sprekersidentificatie. Hierbij onderzoeken we eerst de mogelijkheid van annotaties om de sprekers in het gesprek te identificeren. Indien we een mogelijk model gevonden hebben voor deze taak kunnen we het implementeren en de prestaties van de systemen met en zonder annotaties vergelijken.
 
-\par Tenslotte zullen we kijken of er verbetering mogelijk is met bijkomende software (LLM) hierbij onderzoeken we de bruikbaarheid van Language Models (LLMs) of andere bijkomende software om automatisch gegenereerde teksten te verbeteren voor niet-standaard Nederlands.
+\par Als er tijd beschikbaar is, zullen we experimenteren met aanvullende software, zoals Language Models (LLMs). Hierbij onderzoeken we de mogelijkheid om automatisch gegenereerde teksten te verbeteren voor niet-standaard Nederlands.
 
 
-\par De methodologie voor dit onderzoek omvat een uitgebreide aanpak, bestaande uit het vinden van relevante literatuur, het identificeren en evalueren van commerciële en open source speech to text systemen, het finetunen van systemen, sprekersidentificatie met annotaties en de mogelijke verbetering van resultaten met Language Models (LLMs). Deze methodologie is gebaseerd op experimenten en vergelijkende studies om de prestaties en nauwkeurigheid van speech to text systemen te verbeteren, vooral in niet-standaard Nederlands en daarbij te gaan kijken. De evaluatie van de systemen zal niet alleen gericht zijn op de algemene prestaties in niet-standaard Nederlands, maar ook specifiek op de herkenning van woorden en zinnen die verbonden zijn met bepaalde regionale accenten.
+\par De methodologie voor dit onderzoek omvat een uitgebreide aanpak, bestaande uit het vinden van relevante literatuur, het identificeren en evalueren van commerciële en open source speech to text systemen, het finetunen van systemen, sprekersidentificatie met annotaties en een mogelijke verbetering van resultaten met Language Models (LLMs). Deze methodologie is gebaseerd op experimenten en vergelijkende studies om de prestaties en nauwkeurigheid van speech to text systemen te verbeteren, vooral in niet-standaard Nederlands. De evaluatie van de systemen zal niet alleen gericht zijn op de algemene prestaties in niet-standaard Nederlands, maar ook specifiek op de herkenning van woorden en zinnen die verbonden zijn met bepaalde regionale accenten.
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwacht resultaat, conclusie}%
 \label{sec:verwachte_resultaten}
 
 De initiële hypothese luidt dat bestaande speech to text systemen, oorspronkelijk getraind op standaard Nederlands, moeite zullen ondervinden bij het nauwkeurig omzetten van niet-standaard varianten.
-Uit de bevindingen in dit rapport blijkt dat er een mogelijke ruimte is voor verbetering van spraak-naar-tekstsystemen. De verwachting is dat een transfer learning model, ondersteund door Language Models (LLM's), aanzienlijke verbeteringen zal laten zien bij het omzetten van niet-standaard Nederlands. Deze verwachting wordt ondersteund door de reeds benadrukte effectiviteit van transfer learning op kleinere datasets, evenals het groeiende succes van LLM's die bij vorige onderzoeken nog niet beschikbaar waren.
+Uit de bevindingen in dit rapport blijkt dat er een mogelijke ruimte is voor verbetering van speech to text systemen. De verwachting is dat een transfer learning model aanzienlijke verbeteringen zal laten zien bij het omzetten van niet-standaard Nederlands. Deze verwachting wordt ondersteund door de reeds benadrukte effectiviteit van transfer learning op kleinere datasets, evenals de mogelijkheid om gebruik te maken van LLM's die bij vorige onderzoeken nog niet beschikbaar waren.
 
-Het is belangrijk op te merken dat indien de resultaten afwijken van de hierboven vermelde hypothese, dit nog altijd waardevolle inzichten oplevert. In dat geval kunnen we een vergelijking maken tussen de verwachte en daadwerkelijke resultaten, wat een boeiende kans biedt om te onderzoeken waarom het met de huidige technologie nog altijd uitdagend blijkt te zijn om niet-standaard Nederlands om te zetten.
-
+Het is belangrijk op te merken dat indien de resultaten afwijken van de hierboven vermelde hypothese, dit nog altijd waardevolle inzichten oplevert. In dat geval kunnen we een vergelijking maken tussen de verwachte en daadwerkelijke resultaten, wat een boeiende kans biedt om te onderzoeken waarom het met de huidige technologie nog altijd uitdagend blijkt te zijn om (niet-standaard) Nederlands om te zetten.
