@@ -15,7 +15,7 @@ Meetbare deelvragen:
 2. Hoe goed werken modellen die getraind zijn op andere talen? 
 
 - Doelstellingen (SMART):
-1. Het ontwikkelen van een model dat de kwaliteit van speech-to-text voor de Nederlandse taal kan verbeteren.
+1. Het ontwikkelen/verbeteren van een model dat de kwaliteit van speech-to-text voor de Nederlandse taal kan verbeteren.
 2. Model moet goede word error rate hebben voor woorden die niet behoren tot de standaardtaal.
 3. Identificeren van goede en slechte open-source modellen voor Nederlands.
 4. Identificeren van goede en slechte closed-source modellen voor Nederlands.

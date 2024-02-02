@@ -9,6 +9,9 @@
 
 %------------------------------------------------------------------------------
 \usepackage{epigraph}
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
 
 % Invoegen bibliografiebestand
 \addbibresource{bib.bib}
@@ -32,7 +35,7 @@
 
 
 
-\supervisor[Co-promotor]{S. Lievens (Hogent, \href{mailto:stijn.lievens@hogent.be}{stijn.lievens@hogent.be})}
+\supervisor[Co-promotor]{L. De Mol (Hogent, \href{mailto:lena.demol@hogent.be}{lena.demol@hogent.be})}
 
 % Binnen welke specialisatierichting uit 3TI situeert dit onderzoek zich?
 % Kies uit deze lijst:
@@ -49,14 +52,13 @@
 \begin{document}
 
 \begin{abstract}
-Dit onderzoek heeft als doel de transcriptiekwaliteit te verbeteren van gesprekken die niet gebruikmaken van standaard Nederlands, waaronder dialecten en regionale accenten. De gesprekken zullen plaatsvinden tussen oudere personen die worden opgebeld door studenten van HOGENT. Hierdoor zal er een leeftijdsverschil zijn tussen de bellers en deelnemers aan het onderzoek.
-We onderzoeken de prestaties van commerciële en open source spraak-naar-tekst systemen en evalueren de invloed van finetuning op deze systemen om de transcriptiekwaliteit te verbeteren. Dit onderzoek tracht een oplossing te bieden voor het probleem van onnauwkeurige transcripties in (niet-standaard) Nederlands, wat een obstakel vormt voor tal van toepassingen. Het draagt bij aan de ontwikkeling van verbeterde transcriptie diensten voor niet-standaard Nederlands, bevordert taalbehoud en kan helpen bij taalkundig onderzoek. De focus ligt op het verbeteren van de kwaliteit van transcripties in spraakopdrachten.
+Speech-to-text, ook wel speech recognition genoemd, is een technologie die luistert naar verbale geluidsopnamen en deze omzet in een geschreven script, dat vervolgens kan worden toegepast in verschillende toepassingen. Dit onderzoek heeft als doel de transcriptiekwaliteit te verbeteren van gesprekken waarin geen standaard Nederlands wordt gebruikt, met inbegrip van dialecten en regionale accenten. De gesprekken vinden plaats tussen oudere personen die worden gebeld door studenten van HOGENT, wat resulteert in een leeftijdsverschil tussen de bellers en de deelnemers aan het onderzoek.
 
-De methodologie zal bestaan uit prestatie evaluaties van speech-to-text systemen zowel commercieel als open source, het finetunen van bestaande modellen door: het toevoegen van lagen, het optimaliseren van hyperparameters en het benutten van aanvullende technologieën.
+Eerst en vooral zullen de prestaties van zowel commerciële als open source speech-to-text systemen worden onderzocht, waarbij we de invloed van finetuning op deze systemen evalueren met als doel de transcriptiekwaliteit te verbeteren. Hierbij staat de vraag centraal: "Kunnen we speech-to-text technologie verbeteren om beter om te gaan met regionale accenten en dialecten?" Dit onderzoek beoogt inzicht te verschaffen in de kwaliteit van transcripties in (niet-standaard) Nederlands, waarbij slechte kwaliteit als obstakel kan dienen voor diverse toepassingen. Hiermee dragen we bij aan de ontwikkeling van verbeterde transcriptiediensten voor (niet-standaard) Nederlands, bevorderen we taalbehoud en ondersteunen we taalkundig onderzoek, met de focus op het verbeteren van de kwaliteit van transcripties in spraakopdrachten.
 
-Er zijn verschillende studies die aantonen dat de genoemde methoden voor het verbeteren van de modellen een positief effect kunnen hebben op de transcriptiekwaliteit.
+De methodologie omvat prestatie-evaluaties van zowel commerciële als open source speech-to-text systemen, evenals het finetunen van bestaande modellen. Volgens verschillende studies kunnen technieken zoals transfer learning en optimalisatie van hyperparameters de transcriptiekwaliteit verbeteren.
 
-Concluderend, biedt dit onderzoek nieuwe inzichten en praktische oplossingen voor het verbeteren van de transcriptiekwaliteit van dergelijke systemen. De bevindingen dragen bij aan de verbetering van de spraakherkenningstechnologieën. Dit heeft positieve implicaties voor toepassingsgebieden waaronder klantenservice en interculturele communicatie.
+In conclusie biedt dit onderzoek nieuwe inzichten en praktische oplossingen voor het verbeteren van de transcriptiekwaliteit van dergelijke systemen. De bevindingen dragen bij aan de verbetering van spraakherkenningstechnologieën, met positieve implicaties voor toepassingsgebieden zoals klantenservice en interculturele communicatie.
 \end{abstract}
 
 \tableofcontents
