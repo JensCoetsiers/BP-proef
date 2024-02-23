@@ -5,31 +5,52 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
 \label{ch:inleiding}
 
-De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+Spraak-naar-tekst technologie, ook bekend als Spraakherkenning (SR), is een integraal onderdeel geworden van ons dagelijks leven en biedt de mogelijkheid om gesproken taal om te zetten in tekst. Met de vooruitgang in kunstmatige intelligentie (AI), met name op het gebied van deep learning, hebben SR-systemen een opmerkelijke nauwkeurigheid en functionaliteit bereikt, waardoor een breed scala aan toepassingen mogelijk is geworden, zoals automatische ondertiteling en parsing van spraakopdrachten \autocite{Roepke2019}.
+
+\section{Context en achtergrond}
+Dit onderzoek richt zich op Speech-to-Text (STT) technologie om de praktische toepassingen en mogelijke maatschappelijke gevolgen te onderzoeken. Het belang en de relevantie van STT in de huidige samenleving worden onderstreept door zijn uitgebreide toepassingen, die variëren van gezondheidszorghulp tot kinderen helpen met problemen in gesproken en geschreven communicatie \autocite{Kambouri2023}. Zoals \textcite{Shakhovska2019} ook aanduidt zullen nieuwe spraakherkenningstechnologieën en -methodes een centraal onderdeel
+worden van het toekomstige leven omdat ze veel communicatietijd besparen en het gewone sms’en vervangen door spraak/audio.
+
+
+\section{Probleemstelling}
+Hoewel er aanzienlijke vooruitgang is geboekt in spraakherkenningstechnologie, blijven bepaalde problemen bestaan. De beschikbaarheid van commerciële spraakherkenningssystemen in het Nederlands is volgens het onderzoek van \textcite{Wei2022} beperkt alsook de uitgebreide variatie en diversiteit aan regionale accenten zoals ook aangekaart in het onderzoek van \autocite{ghyselen2020clearing} en \autocite{barbiers2004reflexieven} vormt mogelijks een uitdaging. Dit leidt tot de vraag of huidige spraak-naar-tekst (STT) technologieën het Nederlands, inclusief regionale accenten en verschillen in taalgebruik, kunnen beheersen. Als gevolg hiervan zal het onderzoek de aanpassingsmogelijkheden en nauwkeurigheid van bestaande STT-systemen onderzoeken bij het vastleggen van verschillende linguïstische nuances in het Nederlands. Het doel is om inzicht te krijgen in de prestaties van STT-systemen in het Nederlands en potentiële verbeterpunten te vinden om de technologie in het Nederlands beter te gebruiken.
+
+\section{Onderzoeksdoelstellingen}
+
+De primaire onderzoeksdoelstellingen omvatten:
 
 \begin{itemize}
-  \item context, achtergrond
-  \item afbakenen van het onderwerp
-  \item verantwoording van het onderwerp, methodologie
-  \item probleemstelling
-  \item onderzoeksdoelstelling
-  \item onderzoeksvraag
-  \item \ldots
+    \item Het onderzoeken van de invloed van omgevingsgeluid op STT-nauwkeurigheid.
+    \item Beoordelen van de geschiktheid van modellen getraind op verschillende talen voor STT-taken in het Nederlands.
+    \item Het identificeren van open source en closed source modellen voor Nederlandse taalverwerking.
+    \item Hoe presteert een geoptimaliseerd model op woorden die niet behoren tot de standaardtaal adhv. word error rate?
+    \item Het evalueren van de haalbaarheid en efficiëntie van het implementeren van verbeterde STT-modellen in de praktijk.
 \end{itemize}
+
+\section{Onderzoeksvraag}
+Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan ...
+
+\section{Methodologie van het onderzoek}
+Om deze doelstellingen te bereiken, zal het onderzoek verschillende fasen doorlopen. Het zal beginnen met een uitgebreid literatuuronderzoek om het huidige landschap van STT-technologie in kaart te brengen en bestaande uitdagingen te identificeren. Vervolgens wordt in het hoofdstuk over methodologie de aanpak beschreven voor het onderzoeken en verbeteren van de transcriptiekwaliteit, met een specifieke focus op gesprekken met oudere mensen en studenten van HOGENT. In dit gedeelte worden het onderzoeksdesign, de methoden voor gegevensverzameling en de criteria voor de evaluatie van het model toegelicht.
+
+Betekenis en verwachte resultaten
+De resultaten van dit onderzoek zijn bedoeld om bij te dragen aan de vooruitgang van STT-technologie, in het bijzonder bij het verwerken van regionale accenten en (niet-standaard) Nederlands. De ontwikkeling van een geoptimaliseerd STT-model op maat voor Nederlands en taalvariaties wordt verwacht. Verder zullen de inzichten uit het onderzoek licht werpen op de uitdagingen en beperkingen in de huidige SR-systemen, waardoor de weg wordt vrijgemaakt voor toekomstig onderzoek en technologische verbeteringen in dit domein.
+
+Het doel van dit onderzoek is om de mogelijkheden en beperkingen van STT-technologie te onderzoeken bij het aanpakken van de taalkundige diversiteit in het Nederlands. Het laatste doel is om de bruikbaarheid en nauwkeurigheid van transcriberen in het Nederlands te vergroten.
+
+
+
+
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
 \label{sec:probleemstelling}
 
 Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's'', systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
-\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
-\label{sec:onderzoeksvraag}
 
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
 \label{sec:onderzoeksdoelstelling}
-
 Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv.\ om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
